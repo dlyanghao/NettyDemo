@@ -102,4 +102,6 @@ public class DiscardServer {
         new DiscardServer(port).run();
         System.out.println("server:run()");
     }
+
+    //可以打开window 的 telnet 客户端进行测试，cmd使用命令telnet 127.0.0.1 8080 进行对话
 }
